@@ -1,0 +1,14 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Arquivos de dados pesados (caso ultrapassem limites do Git)
+data/raw/*.csv
+
+# Configurações locais de IDE
+.vscode/
